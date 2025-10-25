@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Geist:wght@100..900&display=swap');
+
+@import "tailwindcss";
+/* @import "tailwindcss/base.css" layer(base);
+@import "tailwindcss/components.css" layer(components);
+@import "tailwindcss/utilities.css" layer(utilities); */
+
+@theme {
+   --purple-color : #808CFD;
+   --light-purple-color : #E9ECFF;
+   --font-anek-tamil: "Anek Tamil", sans-serif;
+   --font-geist : "Geist", sans-serif;
+}
