@@ -3,6 +3,7 @@ import Headline from "../../components/common/Headline";
 import img1 from "../../assets/images/about_img_1.jpg";
 import img2 from "../../assets/images/about_img_2.jpg";
 import img3 from "../../assets/images/about_img_3.jpg";
+import Button from "../../components/common/Button";
 const About = () => {
   return (
     <main>
@@ -57,6 +58,18 @@ const About = () => {
           We've created a space where you can reconnect with your primal self. 
          </h2>
       </section>
+
+
+       {/* Section 4 */}
+      <div className="bg-light-purple-color border-b-2 border-black w-full min-h-[480px] h-full flex flex-col items-center justify-center gap-[18px] px-4">
+         <p className="uppercase font-geist text-base leading-[131%] tracking-[1%] text-center">WHAT WE BELIEVE IN</p>
+         <h3 className="text-center font-anek-tamil font-bold leading-[100%] tracking-[-5%] text-[57px] uppercase">Join the Primal Tribe Today!</h3>
+        <div className="w-full flex justify-center">
+          <Button className='bg-purple-color uppercase cursor-pointer hover:drop-shadow-lg'>
+          Reserve your spot
+         </Button>
+        </div>
+      </div>
     </main>
   );
 };
