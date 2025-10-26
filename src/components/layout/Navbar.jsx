@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Nav Logo */}
         <div className="flex items-center justify-center gap-1">
           <img src="/nav_logo.png" alt="logo" className="w-11 h-7" />
-          <p className="text-xl font-bold ">PrimalTraining</p>
+          <p className="text-xl font-bold font-instrunment-sans ">PrimalTraining</p>
         </div>
 
         {/* Desktop Links */}
