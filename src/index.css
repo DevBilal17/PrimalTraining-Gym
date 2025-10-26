@@ -24,3 +24,6 @@
 .bg-light-purple-color{
    background-color: var(--light-purple-color);
 }
+.text-purple-color{
+   color: var(--purple-color);
+}
