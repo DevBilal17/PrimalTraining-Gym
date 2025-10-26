@@ -12,7 +12,7 @@ const About = () => {
       </div>
 
       {/* Section 1 */}
-      <section className="grid md:grid-cols-3 ">
+      <section className="grid lg:grid-cols-3 md:grid-cols-2 ">
         <div className="col-span-2 h-full flex flex-col justify-between px-5 py-[30px] bg-purple-color">
           <h2 className="font-bold uppercase font-anek-tamil text-[45px] leading-[91%] tracking-[-3%] ">
             Tap into Your Primal Power. Forge a Stronger You.
@@ -29,6 +29,29 @@ const About = () => {
           className="w-full max-h-[480px] object-cover"
         />
       </section>
+
+      {/* Secction 2 */}
+       <section className="grid lg:grid-cols-3 md:grid-cols-2 ">
+        
+        <img
+          src={img1}
+          alt="section1_img"
+          className="col-span-2 w-full max-h-[480px] object-cover"
+        />
+        <div className=" h-full flex flex-col justify-between px-5 py-[30px] bg-light-purple-color">
+          <h2 className="font-bold uppercase font-anek-tamil text-[45px] leading-[91%] tracking-[-3%] ">
+            DYNAMIC OPEN GYM
+          </h2>
+
+          
+            <p className="text-base font-geist leading-[131%] tracking-[1%]">At Primal Training, we strip away the fluff and focus on the fundamentals. Our expert coaches guide you through intense, functional workouts designed to build raw strength, resilience, and a body capable of anything.</p>
+          
+        </div>
+      </section>
+
+
+      {/* Section 3 */}
+    
     </main>
   );
 };
