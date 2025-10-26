@@ -3,14 +3,13 @@ import img1 from "../../assets/images/home_img_1.png";
 import img2 from "../../assets/images/home_img_2.png";
 import img3 from "../../assets/images/home_img_3.png";
 import Button from "../../components/common/Button";
+import Headline from "../../components/common/Headline";
 const Home = () => {
   return (
     <main>
       {/* Headline 1 */}
       <div className="headline container mx-auto px-4 py-4">
-        <h1 className="font-extrabold xl:text-[116px] md:text-[71px] text-[37px] leading-[110%] tracking-[-5%] font-anek-tamil uppercase">
-          Train Hard. <span className="text-purple-color">Live Better</span>
-        </h1>
+        <Headline>  Train Hard. <span className="text-purple-color">Live Better</span></Headline>
       </div>
       {/* Section 1 */}
       <section className="grid sm:grid-cols-3">
@@ -70,9 +69,9 @@ const Home = () => {
 
       {/* Headline 2 */}
       <div className="headline container mx-auto px-4 py-4">
-        <h1 className="font-extrabold  xl:text-[116px] md:text-[71px] text-[37px]  leading-[110%] tracking-[-5%] font-anek-tamil uppercase">
-          Join the <span className="text-purple-color">Community</span>
-        </h1>
+       <Headline>
+        Join the <span className="text-purple-color">Community</span>
+       </Headline>
       </div>
 
       {/* Section 3 */}
