@@ -34,8 +34,8 @@ const About = () => {
        <section className="grid lg:grid-cols-3 md:grid-cols-2 ">
         
         <img
-          src={img1}
-          alt="section1_img"
+          src={img2}
+          alt="section2_img"
           className="col-span-2 w-full max-h-[480px] object-cover"
         />
         <div className=" h-full flex flex-col justify-between px-5 py-[30px] bg-light-purple-color">
@@ -51,7 +51,12 @@ const About = () => {
 
 
       {/* Section 3 */}
-    
+      <section className="h-[480px]  relative">
+         <img src={img3} alt="" className="h-full w-full object-cover brightness-60" />
+         <h2 className="absolute bottom-0 left-0 text-white max-w-[540px] uppercase font-anek-tamil font-bold text-4xl px-4 pb-4">
+          We've created a space where you can reconnect with your primal self. 
+         </h2>
+      </section>
     </main>
   );
 };
