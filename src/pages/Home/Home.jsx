@@ -5,7 +5,7 @@ import Button from "../../components/common/Button";
 const Home = () => {
   return (
     <main>
-      {/* Headline */}
+      {/* Headline 1 */}
       <div className="headline container mx-auto px-4 py-4">
         <h1 className="font-extrabold text-[116px] leading-[110%] tracking-[-5%] font-anek-tamil uppercase">
           Train Hard. <span className="text-purple-color">Live Better</span>
@@ -66,6 +66,13 @@ const Home = () => {
           className="w-full max-h-[480px] object-cover"
         />
       </section>
+
+      {/* Headline 2 */}
+        <div className="headline container mx-auto px-4 py-4">
+        <h1 className="font-extrabold text-[116px] leading-[110%] tracking-[-5%] font-anek-tamil uppercase">
+          Join the <span className="text-purple-color">Community</span>
+        </h1>
+      </div>
     </main>
   );
 };

@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* Desktop Links */}
         <ul className="md:flex hidden items-center gap-[60px]">
           <li>
-            <Link to={"/home"} className="font-geist text-[15px] leading-[110%] tracking-[-1%] text-black">HOME</Link>
+            <Link to={"/"} className="font-geist text-[15px] leading-[110%] tracking-[-1%] text-black">HOME</Link>
           </li>
           <li>
             <Link to={"/about"} className="font-geist text-[15px] leading-[110%] tracking-[-1%] text-black">ABOUT</Link>
