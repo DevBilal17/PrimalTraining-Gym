@@ -8,8 +8,8 @@ const Navbar = () => {
      navigate('/reserve')
   }
   return (
-    <header className="bg-light-purple-color h-20 w-full px-4 ">
-      <div className="container mx-auto flex items-center justify-between h-full">
+    <header className="bg-light-purple-color h-20 w-full">
+      <div className="custom-container  flex items-center justify-between h-full">
         {/* Nav Logo */}
         <div className="flex items-center justify-center gap-1">
           <img src="/nav_logo.png" alt="logo" className="w-11 h-7" />
