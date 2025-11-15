@@ -55,8 +55,8 @@ const Reserve = () => {
 
        {/* Section */}
       <div className="bg-purple-color w-full min-h-[480px] h-full flex flex-col items-center justify-center gap-[18px] px-4">
-         <h3 className="text-center font-anek-tamil font-bold leading-[100%] tracking-[-5%] text-[57px] uppercase max-w-[780px]">Primal Personal Training</h3>
-         <p className="font-geist text-base leading-[131%] tracking-[1%] text-center max-w-[780px]">Receive personalized guidance and tailored programs designed to unlock your individual primal potential. Our expert coaches will guide you every step of the way.</p>
+         <h3 className="text-center font-anek-tamil font-bold leading-[100%] tracking-[-5%] md:text-[57px] text-[44px] uppercase max-w-[780px]">Primal Personal Training</h3>
+         <p className="font-geist md:text-base text-[15px] leading-[131%] tracking-[1%] text-center max-w-[780px]">Receive personalized guidance and tailored programs designed to unlock your individual primal potential. Our expert coaches will guide you every step of the way.</p>
         <div className="w-full flex justify-center">
           <Button className='bg-light-purple-color uppercase cursor-pointer hover:drop-shadow-lg'>
           Reserve your spot
