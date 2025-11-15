@@ -6,7 +6,7 @@ const Reserve = () => {
   return (
     <main>
       {/* Headline 1 */}
-      <div className="headline container mx-auto px-4 py-4">
+      <div className="headline custom-container px-4 py-4">
         <Headline>  Book a <span className="text-purple-color">session</span></Headline>
       </div>
 
