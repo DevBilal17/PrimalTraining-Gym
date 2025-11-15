@@ -19,7 +19,7 @@ const Home = () => {
         <img
           src={img1}
           alt="section1_img"
-          className=" md:col-span-2 w-full h-full object-cover"
+          className=" md:col-span-2 w-full h-full  object-cover"
         />
         <div className="flex flex-col justify-between p-5 bg-light-purple-color pb-10">
           <h2 className="font-anek-tamil font-bold xl:text-[45px] md:text-[36px] text-[28px] leading-[91%] tracking-[-3%] uppercase">
@@ -117,7 +117,7 @@ const Home = () => {
             </li>
           </ul>
         </div>
-        <div className="md:col-span-2 min-h-[500px]">
+        <div className="md:col-span-2 max-h-[500px]">
           <img
             src={img3}
             alt="section3_img"
